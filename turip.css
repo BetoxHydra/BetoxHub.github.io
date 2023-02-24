@@ -1,0 +1,247 @@
+.naranja{
+    background-color: rgb(221, 108, 66);
+}
+.mevengo{
+  
+    border-color: rgb(22, 22, 22);
+    border-radius: 1cm;
+    font-size: 30px;
+    font-family:patron;
+
+}
+section{
+    display: flex;
+    width: 800px;
+    height: 430px;
+}
+section img {
+  border-style: solid;
+    border-radius: 1cm;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 320px;
+    opacity: 1;
+    filter: contrast(120%);
+    border-color: aqua;
+}
+
+.haberxd{
+    padding-left: 14cm;
+    padding-right: 14cm;
+}
+.contenido{
+    font-family:patron;
+    font-size: 20px;
+}
+@font-face {
+    font-family: patron;
+    src: url(/LEMONMILK-Medium.otf);
+    
+}
+.mevengo2{
+    font-size: 30px;
+    font-family:patron;
+    color: rgb(221, 108, 66);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+video{
+    width: 100%;
+}
+
+.absolute{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-bottom: 30px;
+}
+
+h1::after{
+    display: block;
+    width: 30%;
+    height: 10px;
+    content: "";
+    margin: auto;
+
+}
+h2{
+    font-size: 80px;
+    font-weight: 900;
+    z-index: 100;
+    color:#fff;
+    margin-bottom: 30px;
+}
+
+h2::after{
+    display: block;
+    width: 30%;
+    height: 10px;
+    content: "";
+    margin: auto;
+
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    h1::after{
+        display: none;
+    }
+}
+.pendejo{
+    color: #fff;
+
+
+    font-family:patron;
+
+    margin-block-end: 9cm;
+}
+.hola{
+    color: #fff;
+    
+    
+}
+.UWU{
+    font-family:patron;
+    color: rgb(221, 108, 66);
+    font-size: 30px;
+
+    border-radius: 1cm;
+}
+.negro{
+    background-color: rgb(22, 22, 22);
+}
+.imagenputa{
+    border-radius: 1cm;
+  
+    margin-left: 1cm;
+}
+.imagenputa2{
+    border-radius: 1cm;
+
+    width: 155px;
+    margin-left: 1cm;
+}
+.imagenputa3{
+    border-radius: 1cm;
+
+
+    width: 175px;
+    margin-left: 1cm;
+}
+.imagenputa5{
+    border-radius: 1cm;
+
+
+    width: 225px;
+    margin-left: 1cm;
+}
+.imagenputa6{
+    border-radius: 1cm;
+
+
+    width: 225px;
+    margin-left: 1cm;
+}
+.imagenputa7{
+    border-radius: 1cm;
+
+    width: 185px;
+    margin-left: 1cm;
+}
+.imagenputa8{
+    border-radius: 1cm;
+
+    width: 157px;
+    margin-left: 1cm;
+}
+.imagenputa9{
+    border-radius: 1cm;
+
+    margin-left: 1cm;
+    width: 237px;
+}
+.tiff{
+    border-radius: 1cm;
+    margin-left: 1cm;
+    width: 165px;
+}
+.UWU2{
+
+    border-radius: 1cm;
+    color: #fff;
+    font-family: patron;
+    font-size: 30px;
+}
+
+section text:hover{
+    cursor: crosshair;
+    width: 320px;
+    opacity: 1;
+    filter: contrast(120%);
+    border-color: aqua;
+}
+.CONTENIDO{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-radius: 1cm;
+    font-family: patron;
+}
+.chupi{
+   
+    border-radius: 1cm;
+}

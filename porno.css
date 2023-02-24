@@ -1,0 +1,187 @@
+    
+
+body{
+background: url(Vecteezy_Black-background_ba1020.jpg);
+    background-attachment: fixed;
+    background-position: center ;   
+    background-size: 55cm;
+  
+
+}
+.blanco{
+    background-color: #111111;
+}
+
+.container{
+    width: 500px;
+    margin: 150px auto;
+
+    position: relative;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+   height: auto;
+   transition: all .5s;
+}
+.container:hover img{
+    transform: scale(1.09);
+ } 
+.container .content {
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: justify;
+    height: 100%;
+    color: rgb(255, 0, 0);
+    box-sizing: border-box;
+}
+.content h3 {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #808080;
+    padding: 0 10px 20px 10px;
+}
+.container p{
+    padding: 0px 20px 15px 20px;
+    border-bottom: 1px solid #808080;
+}
+.container:hover .content {
+    top: 0;
+}
+.moverxd{
+    width: 40%;
+}
+.pequeño{
+    width: 10cm;
+    margin-right: 30cm;
+    margin-block-end: 10%;
+}
+
+.contenedor {
+    width: 400px;
+    margin: 40px;
+}
+
+.formulario .contenedor-inputs{
+    padding: 20px;
+    background-color: #111111;
+    border-radius: 6px 6px 0 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border:none;
+    border-bottom: 2px solid rgb(141, 96, 96);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus {
+    border-bottom: 2px solid #ff0000;
+}
+
+.formulario input[Type="radio"] {
+    display: none;
+}
+
+.formulario .sexo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.formulario .label-radio {
+    background: rgb(221, 108, 66);
+    background: rgb(126, 71, 71);
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+}
+
+.menu-fixed {
+    background-color: #111111;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0%;
+    }
+    .menu-fixed li a{
+    
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    display: block;
+    }
+    
+    .menu-fixed li{
+        display: inline-block;
+        text-align: center;
+    }
+
+.menu-fixed li a:hover{
+    background-color: blueviolet;
+}
+
+
+
+.formulario input[type="radio"]:checked + .label-radio{
+   
+    background: rgb(255, 93, 34);
+}
+
+.formulario .sexo .hombre {
+    border-radius: 3px 0 0 3px;
+}
+.formulario .sexo .mujer {
+    border-radius: 0 3px 3px 0;
+}
+
+.formulario .terminos {
+    text-align: center;
+    color: #ff0000;
+}
+
+.formulario .terminos label {
+    margin-left: 10px;
+}
+
+.formulario .error {
+    display: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: rgb(221, 108, 66);
+    color: rgb(255, 0, 0);
+    padding: 15px 10px;
+    padding-left: 40px;
+}
+
+.formulario .boton {
+    width: 100%;
+    text-align: center;
+    background: rgb(221, 108, 66);
+    color:rgb(255, 0, 0);
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.formulario.boton:hover {
+    background: rgb(255, 0, 0);
+}
+
+
+
